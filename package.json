@@ -6,13 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel"
   },
   "dependencies": {
     "next": "12.1.5",
+    "notion-client": "^6.12.9",
+    "notion-types": "^6.12.6",
+    "notion-utils": "^6.12.9",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-notion-x": "^6.12.7"
+    "react-notion-x": "^6.12.9"
   },
   "devDependencies": {
     "@types/node": "17.0.31",
